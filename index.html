@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="timelinejs/css/timeline.css">
   <style>
     #timeline-container {
-      height: 90vh;
+      height: 85vh;
     }
     .tl-slider-background.tl-animate {
       border-radius: 2px;
     }
     .tl-text .tl-headline-date, .tl-text h3.tl-headline-date,
     .tl-text h2.tl-headline, .tl-text h2.tl-headline-title,
-    .tl-timeline {
+    .tl-timeline, .more-info {
       font-family: 'Guardian Sans Web', 'Guardian Sans', 'Merriweather', Roboto, Helvetica, sans-serif;
     }
     h2.tl-headline {
@@ -28,6 +28,7 @@
     h3.tl-headline-date {
       font-weight: 300!important;
       font-size: 1.5rem!important;
+      line-height: 1.2!important;
     }
     .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
       background-color: #b90021;
@@ -54,6 +55,9 @@
     .logo img {
       max-width: 60%;
     }
+    .more-info {
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -66,6 +70,7 @@
     <div class="row logo-container center-align">
       <div class="col s12 center-align">
         <div class="logo">
+          <p class="more-info"><a target="_blank" href="">Ver esta línea de tiempo a pantalla completa en otra pestaña</a></p>
           <img src="http://datalab.ideal.es/img/layout/logoC.png" alt="Logo del Laboratorio de Datos de IDEAL">
         </div>
       </div>
